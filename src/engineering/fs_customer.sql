@@ -32,7 +32,7 @@ dispute_age AS (
 )
 
 SELECT
-    t1.transaction_id,
+    t1.*,
     t2.transaction_period,
     t3.is_high_velocity,
     t4.recentily_last_txn,
