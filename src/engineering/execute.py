@@ -20,4 +20,3 @@ target_engine = sqlalchemy.create_engine("sqlite:///../../data/fraud.db")
 tabelas = ["fs_customer","fs_merchant","fs_security","fs_temporais","fs_transaction"]
 
 ingest_table(tabelas)
-# %%
